@@ -4,6 +4,7 @@
 4. You are required to print true if you detect extra brackets and false otherwise.
 
 # e.g.
+
 ((a + b) + (c + d)) -> false
 (a + b) + ((c + d)) -> true
 
