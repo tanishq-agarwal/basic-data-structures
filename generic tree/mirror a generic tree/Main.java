@@ -123,8 +123,11 @@ public class Main {
     }
   }
 
-  public static void mirror(Node node){
-    // write your code here
+  public static void mirror(Node node) {
+    for (Node child : node.children) {
+      mirror(child);
+    }
+    Collections.reverse(node.children);
   }
 
   public static void main(String[] args) throws Exception {
